@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>English Presentation</title>
+	<style type="text/css">
+
+		* {
+			box-sizing: border-box;
+		}
+
+		html, body {
+			margin: 0;
+			padding: 0;
+		}
+
+		a {
+			color: white;
+		}
+
+		.container {
+			color: grey;
+			display: grid;
+			grid-template-columns: 2fr 2fr 2fr 2fr;
+			grid-template-rows: 2fr 2fr 2fr;
+			grid-template-areas:
+			"T T T T"
+			"M M D D"
+			"M M D D";
+			background: beige;
+			border: 7px ridge grey;
+			grid-gap: 5px;
+		}
+
+		#title {
+			grid-area: T;
+			border: 3px solid black;
+			background: url(https://timedotcom.files.wordpress.com/2017/04/ellisisland.jpg);
+			background-size: cover;
+			background-position: center;
+			color: white;
+		}
+
+		#link1 {
+			grid-area: M;
+			border: 3px solid black;
+			font-size: 30px;
+			background: url(https://www.history.com/.image/t_share/MTU3ODc3NjU4MDgzMjcyMDA5/the-ellis-island-medical-inspection.jpg);
+			background-size: cover;
+			background-position: center;
+			color: white;
+			padding-top: 100px;
+		}
+
+		#link2 {
+			grid-area: D;
+			border: 3px solid black;
+			font-size: 30px;
+			background: url(https://assets.libertyellisfoundation.org/cms/editor/New_Header_[Resized_826_x_300].jpg);
+			background-size: cover;
+			background-position: center;
+			color: white;
+			padding-top: 100px;
+		}
+
+
+		.header {
+			font-family: courier;
+			font-size: 20px;
+			color: black;
+		}
+
+		h1 {
+			color: red;
+		}
+
+	</style>
+</head>
+<body>
+<div class="container">
+
+	<div class="item" id="title"><div class="header"><h1 align="center">Ellis Island</h1></div>
+
+	<h3 align="center">by : Logan, Aiden, and Diangelo</h3></div>
+
+	<div class="item" id="link1"><a href="http://www.ellisisland.se/english/ellisisland_immigration3.asp" target="_blank"><center>Medical Exam</center></a></div>
+
+	<div class="item" id="link2"><a href="https://www.nps.gov/elis/learn/education/upload/medical%20symbols%20list2.pdf" target="_blank"><center>Disease Identification</center></a></div>
+
+</div>
+	
+	<h2><strong><marquee behavior="alternate" direction= "right"><strong>Website: Logan ||| Research: Diangelo & Aiden</strong></marquee></strong></h3>	
+
+</body>
+</html>
